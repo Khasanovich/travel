@@ -1,0 +1,58 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .tour_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .promo {
+        height: 573px;
+    }
+
+    .promo h1 {
+        font-size: 60px;
+        margin-top: 105px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tour_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .burger_menu {
+        display: flex;
+    }
+
+    .about_box {
+        padding: 43px;
+
+    }
+
+    .excursion_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .promo h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .promo h1 {
+        font-size: 30px;
+    }
+
+    .about_box {
+        padding: 20px;
+        
+    }
+}
